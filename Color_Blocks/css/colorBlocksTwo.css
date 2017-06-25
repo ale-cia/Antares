@@ -1,0 +1,77 @@
+body {
+    background: #5f5f5f (img/paul-morris-223786.jpg) center no-repeat;
+}
+
+.font {
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+span  {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12px;
+    margin-bottom: 10px;
+    padding-right: 5px;
+    text-align: center;
+}
+
+
+.block {
+    border-radius: 15px;
+    display: inline-block;
+    height: 100px;
+    margin: 5px;
+    width: 100px;
+}
+
+
+.blue-block {
+ background-color: blue;
+ transition: background-color 0.7s;
+ transition: transform 1s cubic-bezier(0, 1.06, .99, .06);
+}
+
+.blue-block:hover {
+ background-color: gray;
+ transform: rotate(200deg);
+}
+
+.block-count, .color-buttons, h1 {
+    text-align: center;
+}
+.green-block {
+  background-color: green;
+  transition: background-color 0.7s;
+  transition: transform 1s cubic-bezier(0, 1.06, .99, .06);
+}
+
+.green-block:hover {
+    background-color: #000;
+    transform: rotate(180deg);
+}
+
+.red-block {
+    background-color: red;
+    transition: background-color 0.7s;
+    transition: transform 1s cubic-bezier(0, 1.06, .99, .06);
+}
+
+.red-block:hover {
+    background-color: turquoise;
+    transform: rotate(45deg);
+}
+
+.yellow-block {
+    background-color: yellow;
+    transition: background-color 0.7s;
+    transition: transform 1s cubic-bezier(0, 1.06, .99, .06);
+}
+
+.yellow-block:hover {
+    background-color: orange;
+    transform: rotate(90deg);
+}
+
+.block-count {
+    padding-bottom: 10px;
+}
